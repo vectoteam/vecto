@@ -17,15 +17,11 @@ print("\27[34m"..[[
 >> Best Source in Telegram
 >> Features fast and powerful
 
-  __    __  ______  _______  _______  ______  ______   ______  
-|  \  /  \/      \|       \|       \|      \/      \ /      \ 
-| ༯༯ /  ༯༯  ༯༯༯༯༯༯\ ༯༯༯༯༯༯༯\ ༯༯༯༯༯༯༯\\༯༯༯༯༯༯  ༯༯༯༯༯༯\  ༯༯༯༯༯༯\
-| ༯༯/  ༯༯| ༯༯  | ༯༯ ༯༯__| ༯༯ ༯༯__/ ༯༯ | ༯༯ | ༯༯   \༯༯ ༯༯__| ༯༯
-| ༯༯  ༯༯ | ༯༯  | ༯༯ ༯༯    ༯༯ ༯༯    ༯༯ | ༯༯ | ༯༯     | ༯༯    ༯༯
-| ༯༯༯༯༯\ | ༯༯  | ༯༯ ༯༯༯༯༯༯༯\ ༯༯༯༯༯༯༯  | ༯༯ | ༯༯   __| ༯༯༯༯༯༯༯༯
-| ༯༯ \༯༯\| ༯༯__/ ༯༯ ༯༯  | ༯༯ ༯༯      _| ༯༯_| ༯༯__/  \ ༯༯  | ༯༯
-| ༯༯  \༯༯\\༯༯    ༯༯ ༯༯  | ༯༯ ༯༯     |   ༯༯ \\༯༯    ༯༯ ༯༯  | ༯༯
- \༯༯   \༯༯ \༯༯༯༯༯༯ \༯༯   \༯༯\༯༯      \༯༯༯༯༯༯ \༯༯༯༯༯༯ \༯༯   \༯༯
+                 _
+ ___ _ __   __ _| |__
+/ __| '_ \ / _` | '_ \
+\__ \ | | | (_| | |_) |
+|___/_| |_|\__,_|_.__/
                                                  
 ]].."\27[m")
 
@@ -7910,7 +7906,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'.❃┆عـليك الاشـتࢪاك في قنـاة البـوت اولآ . \n .❃┆قنـاة البـوت ←  ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'܁༯┆عـليك الاشـتࢪاك في قنـاة البـوت اولآ . \n ܁༯┆قنـاة البـوت ←  ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -7970,7 +7966,7 @@ Text = [[
 .❃┆ م4 » لعرض اوامر المنشئين
 .❃┆ م5 » لعرض اوامر المطورين
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8017,7 +8013,7 @@ Text = [[
 .❃┆الكلايش
 .❃┆السيلفي
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8089,7 +8085,7 @@ Text = [[
 .❃┆مسح الصلاحيات
 .❃┆مسح الرابط
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8136,7 +8132,7 @@ Text = [[
 .❃┆تفعيل/تعطيل اوامر التحشيش
 .❃┆تفعيل/تعطيل الرابط/جلب الرابط
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8172,7 +8168,7 @@ Text = [[
 .❃┆اضف رسائل + العدد بالرد
 .❃┆اضف مجوهرات + العدد بالرد
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8222,7 +8218,7 @@ Text = [[
 .❃┆رفع/تنزيل منشئ اساسي
 .❃┆مسح المنشئين الاساسين
  — — — — — — — — — 
-[.❃┆Ch Source](t.me/snab)
+[.❃┆Ch Source](https://t.me/TeaMXSnaB)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
