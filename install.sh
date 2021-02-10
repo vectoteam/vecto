@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr snab.lua
 rm -fr sudo.lua
-wget "https://github.com/teamsnab/TeaM-X-SnaB/blob/master/snab.lua"
+wget "https://github.com/teamsnab/TeaM-X-SnaB/master/snab.lua"
 lua start.lua
 }
 installall(){
