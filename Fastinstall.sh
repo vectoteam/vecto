@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/korpica
+cd $HOME/snab
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x korpica
+chmod +x snab
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr korpica.lua
+rm -fr snab.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/korapica-Team/korpica/master/korpica.lua"
+wget "https://github.com/teamsnab/TeaM-X-SnaB/blob/master/snab.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd korpica
+cd snab
 rm -rf luarocks*
 lua start.lua
 
