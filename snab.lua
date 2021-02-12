@@ -17,15 +17,13 @@ print("\27[34m"..[[
 >> Best Source in Telegram
 >> Features fast and powerful
 
-  __    __  ______  _______  _______  ______  ______   ______  
-|  \  /  \/      \|       \|       \|      \/      \ /      \ 
-| ༯༯ /  ༯༯  ༯༯༯༯༯༯\ ༯༯༯༯༯༯༯\ ༯༯༯༯༯༯༯\\༯༯༯༯༯༯  ༯༯༯༯༯༯\  ༯༯༯༯༯༯\
-| ༯༯/  ༯༯| ༯༯  | ༯༯ ༯༯__| ༯༯ ༯༯__/ ༯༯ | ༯༯ | ༯༯   \༯༯ ༯༯__| ༯༯
-| ༯༯  ༯༯ | ༯༯  | ༯༯ ༯༯    ༯༯ ༯༯    ༯༯ | ༯༯ | ༯༯     | ༯༯    ༯༯
-| ༯༯༯༯༯\ | ༯༯  | ༯༯ ༯༯༯༯༯༯༯\ ༯༯༯༯༯༯༯  | ༯༯ | ༯༯   __| ༯༯༯༯༯༯༯༯
-| ༯༯ \༯༯\| ༯༯__/ ༯༯ ༯༯  | ༯༯ ༯༯      _| ༯༯_| ༯༯__/  \ ༯༯  | ༯༯
-| ༯༯  \༯༯\\༯༯    ༯༯ ༯༯  | ༯༯ ༯༯     |   ༯༯ \\༯༯    ༯༯ ༯༯  | ༯༯
- \༯༯   \༯༯ \༯༯༯༯༯༯ \༯༯   \༯༯\༯༯      \༯༯༯༯༯༯ \༯༯༯༯༯༯ \༯༯   \༯༯
+
+                 _
+ ___ _ __   __ _| |__
+/ __| '_ \ / _` | '_ \
+\__ \ | | | (_| | |_) |
+|___/_| |_|\__,_|_.__/
+                                                 
                                                  
 ]].."\27[m")
 
@@ -1449,7 +1447,7 @@ Reply_Status(msg,msg.sender_user_id_,"unlock","⌔️︙تم فـتح البوت
 return false
 end 
 if text == "فتح البوتات " and msg.reply_to_message_id_ == 0 and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -1508,7 +1506,7 @@ Reply_Status(msg,msg.sender_user_id_,"unlock","⌔️︙تم فـتح تعديل
 return false
 end 
 if text == "فتح الكل" and msg.reply_to_message_id_ == 0 and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -1567,7 +1565,7 @@ Reply_Status(msg,msg.sender_user_id_,"unlock","⌔️︙تم فتح الرواب
 return false
 end 
 if text == "قفل المعرفات" and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -1725,7 +1723,7 @@ Reply_Status(msg,msg.sender_user_id_,"unlock","⌔️︙تم فتح الفيدي
 return false
 end 
 if text == "قفل المتحركه" and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -2178,7 +2176,7 @@ Reply_Status(msg,msg.sender_user_id_,"lockkick","⌔️︙تم قفل التكر
 return false
 end 
 if text == "قفل التكرار" and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -2838,7 +2836,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and DevBot(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -3019,7 +3017,7 @@ return false
 end 
 
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -3107,7 +3105,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -3153,7 +3151,7 @@ Reply_Status(msg,userid,"reply","❃┆تم ترقيته ادمن للمجموع
 return false
 end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -3189,7 +3187,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_snab, n
 return false
 end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -3202,7 +3200,7 @@ return false
 end
 
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -6570,7 +6568,7 @@ database:del(bot_id.."snab:Fun_Bots"..msg.chat_id_)
 end
 
 if text == 'تفعيل الايدي' and Owner(msg) then 
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -6593,7 +6591,7 @@ database:set(bot_id..'snab:Lock:ID:Bot'..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_,'❃┆تم تعطيل الايدي') 
 end
 if text == 'تفعيل الايدي بالصوره' and Owner(msg) then   
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
@@ -6616,7 +6614,7 @@ database:set(bot_id..'snab:Lock:ID:Bot:Photo'..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_,'❃┆تم تعطيل الايدي بالصوره') 
 end
 if text == 'تعين الايدي' and Owner(msg) then
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
