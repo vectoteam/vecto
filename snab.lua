@@ -11,19 +11,17 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,997081948,1286586608}
+List_Sudos = {Id_Sudo,1399846092,997081948}
 print("\27[34m"..[[
 
 >> Best Source in Telegram
 >> Features fast and powerful
-
 
                  _
  ___ _ __   __ _| |__
 / __| '_ \ / _` | '_ \
 \__ \ | | | (_| | |_) |
 |___/_| |_|\__,_|_.__/
-                                                 
                                                  
 ]].."\27[m")
 
@@ -127,9 +125,9 @@ end
 end
 function CleangGroups();local z = io.open('./snab');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/snab.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
 function Rank_Checking(user_id,chat_id)
-if tonumber(user_id) == tonumber(997081948) then  
+if tonumber(user_id) == tonumber(1399846092) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1286586608) then
+elseif tonumber(user_id) == tonumber(997081948) then
 var = true  
 elseif tonumber(user_id) == tonumber(Id_Sudo) then
 var = true  
@@ -157,9 +155,9 @@ end
 return var
 end 
 function Get_Rank(user_id,chat_id)
-if tonumber(user_id) == tonumber(997081948) then  
+if tonumber(user_id) == tonumber(1399846092) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1286586608) then  
+elseif tonumber(user_id) == tonumber(997081948) then  
 var = "مطور السورس²"  
 elseif Devsnabe(user_id) == true then
 var = "المطور الاساسي"  
@@ -2599,7 +2597,7 @@ if result.sender_user_id_ == tonumber(Id_Sudo) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور البوت الاساسي \n")
 return false 
 end
-if result.sender_user_id_ == tonumber(997081948) then
+if result.sender_user_id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -2638,7 +2636,7 @@ if result.id_ == tonumber(665877797) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
-if result.id_ == tonumber(997081948) then
+if result.id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -2657,7 +2655,7 @@ if userid == tonumber(Id_Sudo) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور البوت الاساسي \n")
 return false 
 end
-if userid == tonumber(997081948) then
+if userid == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -3484,7 +3482,7 @@ send(msg.chat_id_, msg.id_,'❃┆لقد تم تعطيل الحظر و الطر�
 return false
 end
 function Function_snab(extra, result, success)
-if result.sender_user_id_ == tonumber(997081948) then
+if result.sender_user_id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -3561,7 +3559,7 @@ if result.id_ == tonumber(Id_Sudo) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور البوت \n")
 return false 
 end
-if result.id_ == tonumber(997081948) then
+if result.id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -3613,7 +3611,7 @@ if userid == tonumber(Id_Sudo) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور البوت \n")
 return false 
 end
-if userid == tonumber(997081948) then
+if userid == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -3723,7 +3721,7 @@ end
 return false
 end
 function Function_snab(extra, result, success)
-if result.sender_user_id_ == tonumber(997081948) then
+if result.sender_user_id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس  \n")
 return false 
 end
@@ -3766,7 +3764,7 @@ return false
 end
 function Function_snab(extra, result, success)
 if result.id_ then
-if result.id_ == tonumber(997081948) then
+if result.id_ == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -3798,7 +3796,7 @@ end
 return false
 end
 local userid = text:match("^كتم (%d+)$")
-if userid == tonumber(997081948) then
+if userid == tonumber(1399846092) then
 send(msg.chat_id_, msg.id_, "❃┆لا يمكن { حظر،كتم،طرد،تقيد،الخ ..} مطور السورس \n")
 return false 
 end
@@ -7904,19 +7902,19 @@ send(msg.chat_id_, msg.id_, "❃┆تم التحديث")
 end
 
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
-local url,res = https.request('https://uussuu.ml/korpica/ashtrak.php?id='..msg.sender_user_id_)
+local url,res = https.request('https://uussuu.ml/UUSSUU/ashtrak.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'- شترك في قناة البوت اولآ [ @TeaMXSnaB ] .')   
 return false 
 end
 Text = [[
-WeLCoMe TeAM KOrAPiCa ∴
+WeLCoMe TeaM X- SnAB ∴
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 𖤂
-༯┆[KOrAPiCa TeAm](http://https://t.me/TeaMXSnaB) ∴
-༯┆[INfO KOrAPiCa](https://t.me/infokora) ∴
-༯┆[ChAnEl](https://t.me/H6HHHH) ∴
-༯┆[DeVeLoPeR](https://t.me/iE1BOT) ∴
+ᯓ┇↬[TeaM X- SnAB ](http://https://t.me/TeaMXSnaB) ∴
+ᯓ┇↬[INfO X- SnAB ](http://t.me/info_snab) ∴
+ᯓ┇↬[ChAnEl](https://t.me/joinchat/UDGlDKK2DFIV2vFT) ∴
+ᯓ┇↬[DeVeLoPeR ](https://t.me/XSnaBbot) ∴
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 𖤂
 ]]
 send(msg.chat_id_, msg.id_,Text)
