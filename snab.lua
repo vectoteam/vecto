@@ -7911,8 +7911,8 @@ end
 Text = [[
 WeLCoMe TeaM X- SnAB ∴
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 𖤂
-ᯓ┇↬[TeaM X- SnAB ](http://https://t.me/TeaMXSnaB) ∴
-ᯓ┇↬[INfO X- SnAB ](http://t.me/info_snab) ∴
+ᯓ┇↬[TeaM X- SnAB ](https://t.me/TeaMXSnaB) ∴
+ᯓ┇↬[INfO X- SnAB ](https://t.me/info_snab) ∴
 ᯓ┇↬[ChAnEl](https://t.me/joinchat/UDGlDKK2DFIV2vFT) ∴
 ᯓ┇↬[DeVeLoPeR ](https://t.me/XSnaBbot) ∴
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 𖤂
