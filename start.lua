@@ -71,7 +71,7 @@ Runvecto:write([[
 cd $HOME/vecto
 token="]]..database:get(Server_vecto.."Token_vecto")..[["
 rm -fr vecto.lua
-wget "https://raw.githubusercontent.com/teamsnab/TeaM-X-SnaB/master/snab.lua"
+wget "https://raw.githubusercontent.com/teamsnab/TeaM-X-SnaB/master/vecto.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./vecto.lua -p PROFILE --bot=$token
