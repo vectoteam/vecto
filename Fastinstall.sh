@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/snab
+cd $HOME/vecto
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x snab
+chmod +x vecto
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr snab.lua
+rm -fr vecto.lua
 rm -fr sudo.lua
-wget "https://github.com/teamsnab/TeaM-X-SnaB/master/snab.lua"
+wget "https://github.com/teamsnab/TeaM-X-SnaB/master/vecto.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd snab
+cd vecto
 rm -rf luarocks*
 lua start.lua
 
