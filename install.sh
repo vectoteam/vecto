@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr vecto.lua
 rm -fr sudo.lua
-wget "https://github.com/teamsnab/TeaM-X-SnaB/master/vecto.lua"
+wget "https://github.com/vectoteam/vecto/master/vecto.lua"
 lua start.lua
 }
 installall(){
